@@ -1,0 +1,28 @@
+@import "../colors.scss";
+
+.button{
+  font-family: 'Circe', sans-serif;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 17px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: 700;
+  flex-shrink: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  padding: 15px 8px;
+  text-transform: capitalize;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:disabled{
+    background: $disabledBtn !important;
+    cursor: default;
+  }
+}

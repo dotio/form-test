@@ -1,0 +1,53 @@
+@import '../../styles/ui/colors.scss';
+
+.login_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login_text_wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.login_form_bottom{
+  padding: 48px 0 0;
+}
+
+.login_form{
+  width: calc(100% - 20px);
+  max-width: 500px;
+
+  h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .inputs_wrapper{
+    display: flex;
+    flex-direction: column;
+
+    & > * + *{
+      margin-top: 16px;
+    }
+
+    .error{
+      color: $red;
+      font-size: 13px;
+      line-height: 18px;
+    }
+  }
+}
+
+
+
+
+
+

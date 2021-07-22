@@ -1,0 +1,31 @@
+.form_group{
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  label{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  input{
+    padding: 12px 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 22px;
+    outline: none;
+    border: 1px solid transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    &::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &::placeholder {
+      color: #B4B4B4;
+    }
+  }
+
+}
